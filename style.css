@@ -1,0 +1,149 @@
+* {
+    margin:0;
+    border:0;
+}
+
+html{
+    margin:0;
+}
+
+body{
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+#home{
+    height: 500px;
+    width: 100%;
+}
+#home .line{
+    border-right: 100px;
+    position: absolute;
+}
+#header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: #000000;
+}
+
+#header a{
+    color: grey;
+}
+
+#header .logo{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 150px;
+    float: right;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#header .logo a:hover{
+    color: white;
+    transition: all .2s ease-in-out; 
+}
+
+#header .nav{
+    display: inline-block;
+}
+
+
+#header li{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 40px;
+    margin-top: 14px;
+    font-size: 17px;
+    float: left;
+    letter-spacing: 5px;
+    color: white;
+}
+
+#header li a:hover {
+    color: white;
+    transition: all .2s ease-in-out; 
+}
+
+#home{
+    position: relative;
+    top: 50px;
+    background-color: #2A2A2A;
+    padding-top: 50px;
+}
+
+#home p{
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+}
+
+
+#home .contentHome h3{
+    font-family: 'Poiret One', cursive;
+    font-size:  130px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+#home .contentHome p{
+    font-family: 'Poiret One', cursive;
+    font-size:  50px;
+    float: right;
+    margin-right: 115px;
+    padding-top: 100px;
+
+}
+
+
+.folderPhotos{
+    display: inline-block;
+    background-color: #3a3a3a;
+    height: 1600px;
+    width: 100%;
+}
+#folder .jakarta1{
+    margin-left: 380px;
+    margin-top: 80px;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    position: relative;
+}
+
+.folderPictures{
+    display: inline-block;
+    background-color: #3a3a3a;
+    height: 850px;
+    width: 100%;
+}
+
+#folder .bali1{
+    display: inline-block;
+    margin-left: 100px;
+    width: auto;
+    height: 700px;
+}
+
+#folder .folderPhotos .text {
+    text-align: center;
+    position: absolute;
+    top: 185%;
+    right: 50%;
+    background-color: gray;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+#folder .folderPicture .text{
+    position: absolute;
+    top: 285%;
+    right: 50%;
+}
